@@ -40,6 +40,9 @@ How It Works
 
 Architecture Overview
 
+<img width="769" alt="image" src="https://github.com/user-attachments/assets/f8f8a62c-6450-4283-836c-e994f11177b2" />
+
+
 The app consists of:
 	•	A React client that sends and receives messages via WebSockets.
 	•	A FastAPI server that connects with Redis and forwards prompts to GPT-J.
