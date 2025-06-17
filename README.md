@@ -2,7 +2,7 @@ How I Built This Fullstack AI Chatbot (React + FastAPI + Redis + GPT)
 
 This project is a complete AI chatbot application I built to explore full-stack development with real-time capabilities. It combines a React frontend with a FastAPI backend, Redis for state management, and Huggingface’s GPT-J for language responses.
 
-🧠 Why I Built It
+Why I Built It?
 
 I wanted to learn how modern chat applications work end-to-end, including how to:
 	•	Design a scalable architecture
@@ -11,18 +11,18 @@ I wanted to learn how modern chat applications work end-to-end, including how to
 	•	Persist chat history using Redis
 	•	Build a clean UI using React
 
-⸻
 
-🛠 Tech Stack I Used
+
+Tech Stack I Used
 	•	Frontend: React 18 for the chat UI
 	•	Backend: FastAPI with WebSocket support
 	•	AI Model: GPT-J-6B via Huggingface Inference API
 	•	Database: Redis JSON and Redis Streams
 	•	Architecture: WebSocket-based real-time chat system
 
-⸻
 
-🔧 How It Works
+
+How It Works
 	1.	Frontend (React)
 	•	I built a simple chat interface using React.
 	•	It communicates with the backend using WebSockets to support real-time chat.
@@ -36,9 +36,9 @@ I wanted to learn how modern chat applications work end-to-end, including how to
 	•	I chose GPT-J-6B because it’s free and powerful enough for many tasks.
 	•	Huggingface’s API made it easy to integrate without hosting the model myself.
 
-⸻
 
-🧩 Architecture Overview
+
+Architecture Overview
 
 The app consists of:
 	•	A React client that sends and receives messages via WebSockets.
@@ -46,9 +46,9 @@ The app consists of:
 	•	A Redis backend that stores conversations and supports message streams.
 	•	An AI model API (GPT-J) for generating natural language replies.
 
-⸻
 
-🚀 What I Learned
+
+ What I Learned
 	•	How to set up real-time WebSocket communication using FastAPI
 	•	Using Redis Streams and Redis JSON for managing live chat data
 	•	Connecting React apps with WebSockets
